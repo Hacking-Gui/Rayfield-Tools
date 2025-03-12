@@ -1,0 +1,14 @@
+-- Creating a Section
+local Section = Tab:CreateSection("Section Example")
+
+-- Update a Section
+Section:Set("Section Example")
+
+Creating a Divider
+local Divider = Tab:CreateDivider()
+
+Updating a Divider
+Divider:Set(false) -- Whether the divider's visibility is to be set to true or false.
+
+Destroying the Interface
+Rayfield:Destroy()
